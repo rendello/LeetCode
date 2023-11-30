@@ -9,3 +9,4 @@ cc a7359a941a5c677a954502f39d3ad0023681e8c313bdb54f8cbcaa6ec5eb390c # shrinks to
 cc 9de624b8888a34cdd9d375b23a69fbed0c840eb6617faaa5170170e9fd998ffd # shrinks to s1 = "", s2 = "a"
 cc 8840ecdb7ea6882193b9a5b3429aa3ae31b08b27382d11eef4260ca7f076edc5 # shrinks to c = "a", n = 0
 cc f6a911d8cfabe63f525318255350b67d858108c80b61ae816fced7ced7f7f21d # shrinks to s = "", p = "a"
+cc 5e5dc538fffe7d3cea0d06d854abb3d85451c57687330b63075b97a6924200af # shrinks to s = "a", p = ""

@@ -47,4 +47,12 @@ proptest! {
     	let p = ".".repeat(n as usize);
     	assert!(is_match(s, p))
     }
+
+    #[test]
+    fn star_for_empty_string(c in "[a-z]", n in 1..10) {
+        let s = "".to_string();
+        let p = format!("{c}*").repeat(n as usize);
+        println!("{} :: {}", s, p);
+        assert!(is_match(s, p))
+    }
 }
